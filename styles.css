@@ -1,0 +1,19 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+	scroll-padding-top:  2rem;
+}
+
+:root{
+	--bg-color:  #10191a;
+	--main-color: #;
+	--2nd-main-color: ;
+	--big-font: 5rem;
+	--h2-font: 1.9rem;
+	--p-font: 1rem;
+}
