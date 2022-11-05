@@ -11,9 +11,33 @@
 
 :root{
 	--bg-color:  #10191a;
-	--main-color: #;
-	--2nd-main-color: ;
+	--main-color: #3aebe0;
+	--2nd-main-color: #019086;
 	--big-font: 5rem;
 	--h2-font: 1.9rem;
 	--p-font: 1rem;
+}
+
+body{
+	background: var(--bg-color);
+	color: var(--text-color);
+}
+header{
+	position: fixed;
+	width: 100%;
+	top:0 ;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: var(--bg-color);
+	padding: 24px 14%;
+	transition: .3s;
+}
+#menu-icon{
+	font-size: 28px;
+	z-index: 1001;
+	cursor: pointer;
+	display: none;
 }
